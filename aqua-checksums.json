@@ -1,0 +1,54 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.2/ghcp_darwin_amd64.zip",
+      "checksum": "8221F411AC4F2465B7CFD31EFB6DA4568E5FD20BAD9F66AC312B23AFA4520FDD",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.2/ghcp_linux_amd64.zip",
+      "checksum": "6B9D9C9A7B834237B6579353477DF3BB3730C11788170AD2A9E5D1230ABC6216",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/int128/ghcp/v1.13.2/ghcp_windows_amd64.zip",
+      "checksum": "2297D27978C61272184589C3C521514291E6258C3C87EBCB16FB61B32663414E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_darwin_amd64.tar.gz",
+      "checksum": "A676D771131F30CB9C4EBE3CD73D39CF7603EEB1D0330D32587FCDE6E4E91D85",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_darwin_arm64.tar.gz",
+      "checksum": "CDA010E2FDADCAB14CD5E94EB1E5F88920E6BD1E8EDDE9DEF09985383FECDC80",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_linux_amd64.tar.gz",
+      "checksum": "A8E55BEA1A5F94F9515FD9C5C3296D1874461BA1DBD158B3FC0ED6A0DB3B7D92",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_linux_arm64.tar.gz",
+      "checksum": "19BCEE0C877C240D8422B9AAB4E5FE4EE1519C786B1935A2A5520EF2CAAB2D64",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_windows_amd64.tar.gz",
+      "checksum": "7337143DB77CAB33B71B81A407095E57D43701EDCBE35B5C8502CA009B32EE47",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/tfcmt/v4.1.0/tfcmt_windows_arm64.tar.gz",
+      "checksum": "8EAC5154F329B23E030AFF5ACB5247E3C3CA1C83C35BD0B48A0D6730CC696550",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v3.143.0/registry.yaml",
+      "checksum": "D028647D8EE72199A629F126F4941D5E88E63D225772586E884E6B367B26E832C81D5FF2BA408D0D2D9B97510A0EB7F8DAF2CF076BBEF5EDF049694255448D2C",
+      "algorithm": "sha512"
+    }
+  ]
+}

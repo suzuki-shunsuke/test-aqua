@@ -1,0 +1,33 @@
+name: update-aqua-checksum
+on:
+  pull_request:
+    paths:
+      - aqua.yaml
+      - aqua-checksums.json
+jobs:
+  update-aqua-checksums:
+    uses: aquaproj/update-checksum-workflow/.github/workflows/update-checksum.yaml@c766f4606e9aedc9c5c864f7ee28aed25284a3cf # v0.1.4
+    permissions:
+      contents: read
+    with:
+      aqua_version: v1.36.0
+      prune: true
+    secrets:
+      gh_token: ${{secrets.GH_TOKEN}}
+      # gh_app_id: ${{secrets.APP_ID}}
+      # gh_app_private_key: ${{secrets.APP_PRIVATE_KEY}}
+
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      AQUA_LOG_COLOR: always
+    steps:
+      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+      - uses: aquaproj/aqua-installer@61e2563dfe7674cbf74fe6ec212e444198a3bb00 # v2.0.2
+        with:
+          aqua_version: v1.36.0
+        env:
+          GITHUB_TOKEN: ${{github.token}}
+      - run: tfcmt -v
