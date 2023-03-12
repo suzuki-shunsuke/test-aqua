@@ -8,11 +8,11 @@ jobs:
   update-aqua-checksums:
     uses: aquaproj/update-checksum-workflow/.github/workflows/update-checksum.yaml@c766f4606e9aedc9c5c864f7ee28aed25284a3cf # v0.1.4
     permissions:
-      contents: read
+      contents: write
     with:
       aqua_version: v1.36.0
       prune: true
     secrets:
-      gh_token: ${{github.token}}
+      gh_token: ${{secrets.GITHUB_TOKEN}}
       # gh_app_id: ${{secrets.APP_ID}}
       # gh_app_private_key: ${{secrets.APP_PRIVATE_KEY}}
